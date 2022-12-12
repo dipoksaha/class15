@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{}
+.mainmenu{
+    background:#22c3a3 ;
+    padding: 20px;
+}
+.mainmenu h1{
+    display: inline-block;
+    color: #fff;
+}
+.mainmenu ul{
+    display: inline-block;
+    float: right;
+    margin: 10px 100px 10px 0px;
+}
+.mainmenu ul li{
+    display: inline-block;
+}
+.mainmenu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 20px;
+    
+
+}
+.herobgimg{
+    background-image: url(./header-bg01.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position:bottom center;
+    text-align: center;
+}
+.herobgimg h1{
+    color: #fff;
+    margin-top: 120px;
+    display: inline-block;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+.herobgimg p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+.herobgimg a{
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+.herobgimg a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:100%;
+    background: orangered;
+    border-radius: 5px;
+    z-index: -1;
+    transition: .9s;
+}
+.herobgimg a:hover::before{
+    width: 100%;
+    
+
+}
+.herobgimg a:hover{
+    color: black;
+    transition: .5s;
+}
+.servicearea{
+    text-align: center;
+    height: 350px;
+    border-bottom: 5px solid #0dbf9b;
+}
+.ourservice{
+    text-align: center;
+    margin-top: 40px;
+}
+.ourservice h3{
+    margin-bottom: 10px;
+}
+
+.serviceitem{
+   
+    width: 200px;
+    display: inline-block;
+    margin: 100px 40px 20px 0px;
+}
+.serviceitem i{
+    font-size: 25px;
+    color: #0dbf9b;
+}
+.serviceitem h3{
+    margin: 7px;
+}
+.about{
+    text-align: center;
+margin:100px 0px 0px 200px;
+display: block;
+position: relative;
+height: 500px;
+}
+.about img{
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+}
+.abouttext{
+    display: inline-block;
+    width: 800px;
+    margin-left: 50px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+.abouttext p h2{
+    display: inline-block;
+}
+.abouttext p{
+    display: inline-block;
+}
+.contactdiv{
+    height: 400px;
+    background: rgb(230, 228, 228);
+    text-align: center;
+}
+.contactdiv h2{
+    margin: 100px 0px 15px 0px;
+    display: inline-block;
+
+}
+.contact{
+    width: 200px;
+    margin-right: 100px;
+    display: inline-block;
+    margin-top: 100px;
+}
+.contact p{
+line-height: 20px;}
+
+.contact i{
+    color: #0dbf9b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.icondiv{
+    text-align: center;
+    padding: 20px 0px;
+    
+    background:#0dbf9b ;
+}
+.icondiv a i{
+    margin-left: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.fotter{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    word-spacing: 5px;
+}
