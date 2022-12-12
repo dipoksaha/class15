@@ -27,6 +27,9 @@
     
 
 }
+.mainmenu ul li a:hover{
+    color:orangered;
+}
 .herobgimg{
     background-image: url(./header-bg01.jpg);
     background-size: cover;
